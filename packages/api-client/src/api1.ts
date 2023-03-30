@@ -2,7 +2,7 @@ import { Context } from '@vue-storefront/core';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default async function api1(context: Context): Promise<any> {
-  console.log('zzzzzzzzz', context.req.headers);
+  console.log('api1==================', context.req.headers);
 
   // const url = new URL('/api1/', context.config.api.url);
   // const data = { name: 'aaa' };

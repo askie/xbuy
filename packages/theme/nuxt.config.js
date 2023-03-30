@@ -145,7 +145,7 @@ export default {
   },
 
   router: {
-    middleware: ['checkout']
+    middleware: ['auth']
   },
   publicRuntimeConfig: {
     theme
@@ -154,5 +154,6 @@ export default {
     meta: {
       theme_color: '#5ECE7B'
     }
-  }
+  },
+  serverMiddleware: ['~/middleware/example']
 };
