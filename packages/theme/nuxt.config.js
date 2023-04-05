@@ -77,7 +77,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    ['nuxt-i18n', {
+    ['@nuxtjs/i18n', {
       baseUrl: process.env.BASE_URL || 'http://localhost:3000'
     }],
     'cookie-universal-nuxt',
@@ -131,7 +131,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [
-      'vee-validate/dist/rules'
+      'vee-validate/dist/rules', '@glidejs/glide'
     ],
     plugins: [
       new webpack.DefinePlugin({

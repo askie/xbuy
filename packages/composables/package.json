@@ -24,14 +24,14 @@
   },
   "dependencies": {
     "@vue-storefront/xbuy-api": "0.0.1",
-    "@vue-storefront/core": "~2.5.4"
+    "@vue-storefront/core": "~2.7.5"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.6",
     "rollup-plugin-typescript2": "^0.30.0"
   },
   "peerDependencies": {
-    "@nuxtjs/composition-api": "^0.29.3"
+    "@nuxtjs/composition-api": "^0.33.1"
   },
   "files": [
     "lib/**/*"
